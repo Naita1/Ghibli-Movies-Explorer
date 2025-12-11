@@ -3,9 +3,9 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge&logo=check&logoColor=white&color=F48FB1" alt="Status Concluído"/>
+  <img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge&logo=tools&logoColor=white&color=FBC02D" alt="Status Em Desenvolvimento"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white&color=81D4FA" alt="React"/>
-  <img src="https://img.shields.io/badge/API-REST-yellow?style=for-the-badge&logo=fastapi&logoColor=white&color=FBC02D" alt="API REST"/>
+  <img src="https://img.shields.io/badge/API-REST-yellow?style=for-the-badge&logo=fastapi&logoColor=white&color=F48FB1" alt="API REST"/>
 </div>
 
 <p align="center">
@@ -14,25 +14,28 @@
 
 <br>
 
+> 🚧 **Projeto em Construção:** Estou implementando novas funcionalidades e melhorando o design da interface.
+
 ## 🍿 Sobre o Projeto
 
-O **Ghibli Explorer** é uma aplicação Front-end que consome a [Studio Ghibli API](https://ghibliapi.vercel.app/) para listar filmes, descrições e detalhes das obras do estúdio. O objetivo principal foi criar uma experiência de usuário imersiva, focada em design responsivo e manipulação de dados assíncronos com React.
+O **Ghibli Explorer** é uma aplicação Front-end que consome a [Studio Ghibli API](https://ghibliapi.vercel.app/) para listar filmes e detalhes das obras do estúdio. O objetivo é criar uma experiência imersiva e responsiva.
 
-### ✨ Funcionalidades
+### ✨ Funcionalidades (Roadmap)
 
-- [x] **Catálogo Visual:** Exibição dos filmes em grid com pôsteres e títulos, similar a serviços de streaming.
-- [x] **Detalhes do Filme:** Ao clicar, exibe sinopse, ano de lançamento, diretor e nota (Rotten Tomatoes).
-- [x] **Consumo de API:** Requisições GET para buscar dados reais e atualizados.
-- [x] **Responsividade:** Interface adaptada para Desktop, Tablet e Mobile.
+- [x] **Consumo de API:** Conexão básica com a API do Ghibli.
+- [ ] **Catálogo Visual:** Exibição dos filmes em grid (Cards).
+- [ ] **Detalhes do Filme:** Modal ou página com sinopse e ano.
+- [ ] **Filtros:** Buscar filmes por diretor ou título.
+- [ ] **Favoritos:** Salvar filmes preferidos no LocalStorage.
 
 ---
 
 ## 🛠 Tech Stack
 
 * **Biblioteca Principal:** [React.js](https://reactjs.org/)
-* **Estilização:** CSS3 (Flexbox/Grid) ou Styled-components.
-* **Requisições:** Fetch API ou Axios.
-* **Gerenciamento de Estado:** React Hooks (useState, useEffect).
+* **Estilização:** CSS3 e Styled-components.
+* **Requisições:** Axios.
+* **Gerenciamento de Estado:** React Hooks.
 
 ---
 
